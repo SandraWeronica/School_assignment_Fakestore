@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="inlog.css">
+    <script src="Login.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">Fake Store!!</h1>
+      <h3>Happy Shopping!</h3>
+      <a class="link" href="index.html">Startsida</a>
+    </header>
+    <main>
+     <section class="formBox">
+      <form id="inlogForm">
+        <h1>Logga in</h1>
+        <p>Joina oss för att ta del av vårt fantastiska utbud!</p>
+        <input
+          type="text"
+          id="username"
+          class="form"
+          placeholder="Användarnamn"
+          required
+        />
+        <input
+          type="password"
+          id="password"
+          class="form"
+          placeholder="Lösenord"
+          required
+        />
+      <div class="buttonStyle">
+        <button type="submit" class="buttons">Logga in</button>
+        <button type="button" class="buttons" id="createAccountButton">
+          Bli medlem
+        </button>
+      </div>
+        <p class="message" id="message"></p>
+      </form>
+      <form id="signUpForm" class="hidden">
+        <h1>Logga in</h1>
+        <p>Joina oss för att ta del av vårt fantastiska utbud!</p>
+        <input
+          type="text"
+          id="username"
+          class="form"
+          placeholder="Användarnamn"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          class="form"
+          placeholder="Email"
+          required
+        />
+        <input
+          type="password"
+          id="password"
+          class="form"
+          placeholder="Lösenord"
+          required
+        />
+        <input
+          type="password"
+          id="confirmPassword"
+          class="form"
+          placeholder="Upprepa valt lösenord"
+          required
+        />
+      <div class="buttonStyle">
+        <button type="submit" class="hiddenButton">Logga in</button>
+        <button type="submit" class="buttons" id="createAccountButton">
+          Bli medlem
+        </button>
+      </div>
+        <p class="message" id="message"></p>
+     </section>
+      </form>
+    </main>
+  </body>
+</html>

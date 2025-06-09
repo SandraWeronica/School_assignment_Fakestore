@@ -1,0 +1,56 @@
+main {
+  height: 100vh;
+  background-color: rgb(249, 226, 211);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.formBox {
+  width: 90%;
+  max-width: 450px;
+  background: rgba(241, 141, 71, 0.7);
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 5px 5px 10px #882361;
+
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+}
+#inlogForm h1 {
+  margin-bottom: 2rem;
+}
+#signUpForm h1 {
+  margin-bottom: 2rem;
+}
+
+.form {
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 5px rgb(231, 103, 14);
+}
+
+.buttonStyle {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  margin: 4px;
+  cursor: pointer;
+  color: rgba(91, 40, 6, 0.99);
+  font-size: large;
+  background-color: rgb(249, 226, 211);
+  box-shadow: 1px 1px 5px rgba(91, 40, 6, 0.99);
+}

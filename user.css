@@ -1,0 +1,57 @@
+main {
+  background-color: rgb(249, 226, 211);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 3px solid rgba(133, 57, 7, 1);
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 5px 5px 10px rgba(133, 57, 7, 1);
+  background-color: #fff;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+#searchbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.searchInput {
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 0.5px solid rgba(133, 57, 7, 1);
+  box-shadow: 5px 5px 10px rgba(133, 57, 7, 1);
+}
+
+#categories {
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 0.5px solid rgba(133, 57, 7, 1);
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  box-shadow: 5px 5px 10px rgba(133, 57, 7, 1);
+}
+
+#searchProduct {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 40px;
+}
